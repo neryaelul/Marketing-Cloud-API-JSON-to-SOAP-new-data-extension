@@ -1,6 +1,6 @@
 <?php 
     //
-    require_once '/config/MasterSC.php';
+    require_once '/config/ReqClass.php';
     require_once '/config/MCClass.php';
 
     $MarketingCloud = new MarketingCloud();
@@ -76,7 +76,7 @@
         
     }
     ';
-    $new_de = $MarketingCloud->urlSOAP($json_ex);
+    $new_de = $MarketingCloud->dataExtensionsCreate($json_ex);
 
      echo $new_de;
         
