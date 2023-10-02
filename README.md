@@ -85,7 +85,7 @@ Convert JSON to SOAP To create new data extensions on Salesforce Marketing Cloud
         
     }
     ';
-    $new_de = $MarketingCloud->urlSOAP($json_ex);
+    $new_de = $MarketingCloud->dataExtensionsCreate($json_ex);
 
      echo $new_de;
 ```
