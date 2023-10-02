@@ -1,4 +1,4 @@
-# Salesforce-Marketing-Cloud-API-JSON-to-SOAP-new-data-extension
+# Salesforce Marketing Cloud API JSON-to-SOAP new data extension
 Convert JSON to SOAP To create new data extensions on Salesforce Marketing Cloud
 ## You can see how it looks like sending JSON URL Request
 ``` new_data_extensions_example.php ```
