@@ -5,7 +5,7 @@ Convert JSON to SOAP To create new data extensions on Salesforce Marketing Cloud
 ### Call the classes
 
 ```
-    require_once '/config/MasterSC.php';
+    require_once '/config/ReqClass.php';
     require_once '/config/MCClass.php';
 ```
 
