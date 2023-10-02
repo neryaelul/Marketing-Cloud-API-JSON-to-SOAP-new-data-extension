@@ -13,8 +13,6 @@
     $MarketingCloud->urlRestAPI = "https://*****.rest.marketingcloudapis.com";
     $MarketingCloud->urlSOAP = "https://mchh-m48rfvtknbpmrl-4njrqyd4.soap.marketingcloudapis.com";
     
-    $data = file_get_contents('php://input');
-
             
 
  
